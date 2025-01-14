@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+header{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    margin-right: 30px;
+}
+
+header img{
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+#btn input{
+    color: black;
+    background-color: rgb(0, 135, 188);
+ border-radius: 3px;   
+ width: 30%;
+ padding: 10px;
+ margin-top: 30px;
+ margin-left: 10px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: larger;
+}
+
+#checkbox{
+    margin-top: 50px;
+}
+
+nav ol{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+#l1{
+    margin-left: 10px;
+}
+#l2{
+    margin-left: 30px;
+}
+#l3{
+    margin-left: 30px;
+}
+
+nav button{
+    margin-left: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#dated{
+    margin: 10px 20px 10px 20px;
+    background-color: darkgrey;
+    padding: 5px;
+    width: 30%;
+}
+
+article h1{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: rgb(12, 12, 80);
+}
+
+#Gcom{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: cornflowerblue;
+    padding: 5px;
+}
+
+#Gcom h2{
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Gcom img{
+    width: 50px;
+    margin-left: 10px;
+}
+
+#secao{
+    max-width: 100%;
+}
+
+#principal{
+    display: flex;
+    flex-direction: row;
+}
+
+#secao h1{
+    color: rgb(27, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#secao h2{
+    color: rgb(0, 71, 106);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#secao section{
+    padding: 10px 20px; 
+}
+
+#secao aside{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#asi{
+    background-color: rgb(223, 223, 223);
+    padding: 5px;
+    border-radius: 5px;
+    float: right;
+    box-shadow: inset 5px 0px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+    margin-left: 8px;
+}
+
+mark{
+    background-color: #95cce8;
+}
+
+footer{
+    background-color: cornflowerblue;
+    margin-top: 10px;    
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer h1{
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(9, 0, 63);
+}
+
+footer a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif,  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 3px;
+}
+
+#iconsocial{
+    display: flex;
+    justify-content: flex-star;
+    flex-direction: row;
+    align-items: center;
+    font-size: large;
+    }
+
+#banner{
+        width: 100% ;  
+}
+
+#dpt{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #29627e;
+    font-size: larger;
+}
+
+figure img{
+    width: 25%;
+    margin-top: 5px;
+}
+figure figcaption{
+    background-color: #29627e;
+    width: 25%;
+    margin-top: -5px;
+    padding: 3px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: #000000;
+}
+
+details{
+    background-color: #29627e;
+    width: 23.3%;
+    margin-left: 50px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
