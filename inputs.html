@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inputs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="checkbox">
+        <fieldset>
+            <legend>choose your interest</legend>
+        <div>
+        <input type="checkbox" id="
+        codigo " value="codigo" >
+        <label for="codigo">Codigo</label>
+    </div>
+    <div>
+        <input type="checkbox" id="music" value="music" name="interest">
+        <label for="music">music</label>
+    </div>
+    </fieldset>
+    </div>
+    
+    <div id="color">
+        <input type="color" id="btncolor" value="#ff0000"> 
+        <label for="btncolor">Red</label>
+    </div>
+    
+    <div id="date">
+        <input type="date" id="aniversário" name="aniversário" value="0000-00-00" min="2006-01-01" max="2007-12-31">
+        <label for="aniversário">Data do seu aniversário</label>
+    </div>
+    
+    <div id="date-time">
+        <input type="datetime-local" id="data-hora"
+        name="data-hora"
+        value="0000-00-00T00:00"
+        min="2006-01-01T00:00"
+        max="2007-12-31T00:00">
+        <label for="Data-hora">Data e hora de seu nascimento</label>
+    </div>
+    
+    <div id="email">
+        <input type="email" name="email" id="email"
+        pattern=".+@example.com"
+        size="30"
+        maxlength="30"
+        placeholder="seuemail@example.com"
+        required>
+        <label for="email">Digite seu email!</label>
+    </div>
+    
+    <div id="arquivo">
+        <label for="arquivo">Escolha arquivo</label>
+        <input type="file" id="doc"
+        name="doc"
+        accept="image/png, image/jpeg, .doc, .dox">
+    </div>
+    
+    <div id="oculto">
+        <label for="titulo">Título da postagem</label>
+        <input type="text"
+       id="titulo"
+       name="titulo"
+       placeholder="escreva o titulo">
+    <div>
+        <label for="content">Legenda</label>
+     <textarea name="content" placeholder="Digite  sobre" id="content"></textarea>>
+    </div>
+    <div>
+        <input type="hidden" id="postid" value="34657">
+    </div>
+    </div>
+    
+    <div id="imagem">
+        <label for=""></label>
+        <input type="image" id="img" 
+        alt="login"
+        src="/media/example/login-button.png"
+        width="100">
+    </div>
+    
+    <div id="month">
+        <label for="mês">Mês</label>
+        <input type="month" id="Mês" name="semana"
+        min="2000-01" max="2025-01" value="2000-01">
+    </div>
+    
+    <div id="numero">
+        <label for="num">Qual sua idade</label>
+        <input type="number"
+        id="num"
+        name="num"
+        min="00"
+        max="100"
+        >
+    </div>
+    
+    <div id="password">
+        <div>
+        <label for="username">username</label>
+        <input type="text" id="username" name="username">
+    </div>
+    <div>
+        <label for="pass">Senha (Mínimo de 8 caracteres)</label>
+        <input type="password" id="pass" 
+        name="pass" 
+        minlength="8"
+        required
+        placeholder="********">
+    </div>
+    <input type="submit" value="Entrar">
+    </div>
+    
+    <div id="radio">
+        <fieldset>
+            <legend>Selecione seu time</legend>
+            <div>
+                <input type="radio" id="flamengo" 
+                name="flamengo"
+                value="flamengo" >
+                <label for="flamengo">Flamengo</label> 
+            </div>
+            <div>
+                <input type="radio" id="Fluminense" 
+                name="Fluminense"
+                value="Fluminense" >
+                <label for="Fluminense">Fluminense</label> 
+            </div>
+            <div>
+                <input type="radio" id="Vasco" 
+                name="Vasco"
+                value="Vasco" >
+                <label for="Vasco">Vasco</label> 
+            </div>
+    
+        </fieldset>
+    </div>
+    
+    <div id="range">
+        <fieldset>
+            <div>
+                <input type="range" id="volume"
+                name="volume"
+                min="0"
+                max="100">
+                <label for="volume">Volume</label>
+            </div>
+            <div>
+                <input type="range" id="Grave"
+                name="Grave"
+                min="0"
+                max="100">
+                <label for="Grave">Grave</label>
+            </div>
+        </fieldset>
+    </div>
+    
+    <div id="reset">
+        <div id="control">
+            <label for="usuario:">Usuário</label>
+            <input type="text" id="usuario" name="usuario">
+    
+            <div>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+            </div>
+        </div>
+    </div>
+    
+    <div id="search">
+        <label for="pesquisa">Pesquisas</label>
+        <input type="search" id="pesquisa" name="pesquisa">
+        <div>
+            <button>Search</button>
+        </div>
+    </div>
+        
+    
+    <div id="number">
+        <label for="phone">Telefone</label>
+        <input type="tel" id="phone" name="phone"
+        pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}"
+        required>
+    </div>
+    
+    <div id="time">
+          <label for="horario">Horario de saída:</label>
+          <input type="time" id="horario" name="horario" min="00:00" max="23:59" required>
+    </div>
+    
+    <div id="url">
+        <label for="enter">Enter</label>
+        <input type="url"
+        id="enter"
+        name="enter"
+        placeholder="https://example.com"
+        pattern="https://."
+        size="30"
+        required>
+    </div>
+    
+    <div id="week">
+        <label for="semana">semana</label>
+        <input type="week" id="semana" name="semana"
+        min="2000-w1" max="2025-w52"
+        required>
+    </div>
+    
+</body>
+</html>
